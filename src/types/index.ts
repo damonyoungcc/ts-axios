@@ -57,4 +57,5 @@ export interface Axios {
 // 最后的混合对象类型
 export interface AxiosInstance extends Axios {
   (config: AxiosRequestConfig): AxiosPromise
+  (url: string, config?: AxiosRequestConfig): AxiosPromise
 }
