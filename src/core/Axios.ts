@@ -7,7 +7,7 @@ import {
   RejectedFn
 } from '../types'
 import dispatchRequest, { transformURL } from './dispatchRequest'
-import InterceptorManager from './InterceptorManager'
+import InterceptorManager from './interceptorManager'
 import mergeConfig from './mergeConfig'
 
 interface Interceptors {
